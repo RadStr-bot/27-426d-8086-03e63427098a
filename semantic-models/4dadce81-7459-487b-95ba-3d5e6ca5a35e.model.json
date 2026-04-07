@@ -1,6 +1,6 @@
 {
   "type": "http://dataspecer.com/resources/local/semantic-model",
-  "modelId": "f12a72f1-2351-4ef7-b92a-f9964729ab30",
+  "modelId": "3695ef70-16c3-4894-8bca-b58dda23a015",
   "modelAlias": "Data Specification Vocabulary (DSV)",
   "baseIri": "https://w3id.org/dsv#",
   "entities": {
@@ -823,6 +823,33 @@
       ],
       "child": "https://w3id.org/dsv#VocabularySpecificationDocument",
       "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "dte9js864mmnnx0bbk": {
+      "ends": [
+        {
+          "iri": null,
+          "name": {},
+          "description": {},
+          "concept": "https://w3id.org/dsv#DatatypePropertyProfile",
+          "externalDocumentationUrl": null
+        },
+        {
+          "name": {
+            "en": "Handsome Others"
+          },
+          "description": {},
+          "concept": "https://w3id.org/dsv#InvalidTermProfile",
+          "iri": "handsomeOthers",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "dte9js864mmnnx0bbk",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {}
     }
   }
 }

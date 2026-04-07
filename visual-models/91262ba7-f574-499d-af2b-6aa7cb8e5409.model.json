@@ -1,5 +1,5 @@
 {
-  "identifier": "d75f6ef9-8ff1-46e0-989e-f3c33cf70bc8",
+  "identifier": "3733fe08-2ba6-4972-ac94-ea6ea8462057",
   "version": 1,
   "type": "http://dataspecer.com/resources/local/visual-model",
   "entities": [
@@ -13,7 +13,7 @@
       }
     },
     {
-      "model": "f12a72f1-2351-4ef7-b92a-f9964729ab30",
+      "model": "3695ef70-16c3-4894-8bca-b58dda23a015",
       "representedEntity": "https://w3id.org/dsv#ApplicationProfileSpecificationDocument",
       "position": {
         "x": 890,
@@ -28,7 +28,7 @@
       "identifier": "1zevh"
     },
     {
-      "model": "f12a72f1-2351-4ef7-b92a-f9964729ab30",
+      "model": "3695ef70-16c3-4894-8bca-b58dda23a015",
       "representedEntity": "https://w3id.org/dsv#ClassProfile",
       "position": {
         "x": 170,
@@ -43,7 +43,7 @@
       "identifier": "rsm13g"
     },
     {
-      "model": "f12a72f1-2351-4ef7-b92a-f9964729ab30",
+      "model": "3695ef70-16c3-4894-8bca-b58dda23a015",
       "representedEntity": "https://w3id.org/dsv#InvalidTermProfile",
       "position": {
         "x": 600,
@@ -58,7 +58,7 @@
       "identifier": "222wy"
     },
     {
-      "model": "f12a72f1-2351-4ef7-b92a-f9964729ab30",
+      "model": "3695ef70-16c3-4894-8bca-b58dda23a015",
       "representedEntity": "https://w3id.org/dsv#ObjectPropertyProfile",
       "position": {
         "x": 960,
@@ -73,7 +73,7 @@
       "identifier": "pxx6m"
     },
     {
-      "model": "f12a72f1-2351-4ef7-b92a-f9964729ab30",
+      "model": "3695ef70-16c3-4894-8bca-b58dda23a015",
       "representedRelationship": "https://w3id.org/dsv#range",
       "waypoints": [],
       "visualSource": "pxx6m",
@@ -84,7 +84,7 @@
       "identifier": "ak3tt"
     },
     {
-      "model": "e5f875bd-a569-46b2-83e4-32aa7acb237c",
+      "model": "fea2b843-6870-49af-ab70-e69133d313c1",
       "representedEntity": "http://purl.org/dc/terms/Jurisdiction",
       "position": {
         "x": 680,
@@ -99,7 +99,7 @@
       "identifier": "02t7yl"
     },
     {
-      "model": "e5f875bd-a569-46b2-83e4-32aa7acb237c",
+      "model": "fea2b843-6870-49af-ab70-e69133d313c1",
       "representedEntity": "http://purl.org/dc/terms/Frequency",
       "position": {
         "x": 680,
@@ -114,7 +114,7 @@
       "identifier": "flz6u"
     },
     {
-      "model": "e5f875bd-a569-46b2-83e4-32aa7acb237c",
+      "model": "fea2b843-6870-49af-ab70-e69133d313c1",
       "representedEntity": "http://purl.org/dc/terms/FileFormat",
       "position": {
         "x": 170,
@@ -127,6 +127,80 @@
         "visual-node"
       ],
       "identifier": "sz3v0h"
+    },
+    {
+      "model": "3695ef70-16c3-4894-8bca-b58dda23a015",
+      "representedEntity": "https://w3id.org/dsv#DatatypePropertyProfile",
+      "position": {
+        "x": 190,
+        "y": 50,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "ykzyh"
+    },
+    {
+      "model": "3695ef70-16c3-4894-8bca-b58dda23a015",
+      "representedRelationship": "dte9js864mmnnx0bbk",
+      "waypoints": [],
+      "visualSource": "ykzyh",
+      "visualTarget": "222wy",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "c2mym"
+    },
+    {
+      "model": "df9d8773-3ed2-4aeb-978f-389a4d5a70ff",
+      "representedEntity": "http://www.w3.org/2002/07/owl#ReflexiveProperty",
+      "position": {
+        "x": 110,
+        "y": 200,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "1yvdd"
+    },
+    {
+      "model": "df9d8773-3ed2-4aeb-978f-389a4d5a70ff",
+      "representedEntity": "http://www.w3.org/2002/07/owl#TransitiveProperty",
+      "position": {
+        "x": 880,
+        "y": 10,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "jk4hv"
+    },
+    {
+      "model": "8f392a3b-80fe-4465-aa8f-98e5b4e4d349",
+      "representedEntity": "http://www.w3.org/1999/02/22-rdf-syntax-ns#CompoundLiteral",
+      "position": {
+        "x": 440,
+        "y": 230,
+        "anchored": null
+      },
+      "content": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#direction#attribute",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#language#attribute"
+      ],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "xhgo9"
     }
   ]
 }
