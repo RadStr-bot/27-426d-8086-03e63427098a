@@ -1,6 +1,6 @@
 {
   "type": "http://dataspecer.com/resources/local/semantic-model",
-  "modelId": "http://dataspecer.com/packages/local-root/74145c87-ea27-426d-8086-03e63427098a/vocabulary",
+  "modelId": "f12a72f1-2351-4ef7-b92a-f9964729ab30",
   "modelAlias": "Data Specification Vocabulary (DSV)",
   "baseIri": "https://w3id.org/dsv#",
   "entities": {

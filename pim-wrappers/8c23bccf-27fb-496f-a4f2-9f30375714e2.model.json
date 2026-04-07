@@ -1,6 +1,6 @@
 {
   "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
-  "id": "http://dataspecer.com/packages/local-root/74145c87-ea27-426d-8086-03e63427098a/c4ae5424-99e1-4930-b779-535988200cff",
+  "id": "c94a9871-4952-4e71-8f1b-e3a98e10d900",
   "alias": "rdfs",
   "pimStore": {
     "resources": {
