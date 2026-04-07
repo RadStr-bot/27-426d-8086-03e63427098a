@@ -1,0 +1,132 @@
+{
+  "identifier": "37153e45-2404-4465-b54c-33f62e13b6c2",
+  "version": 1,
+  "type": "http://dataspecer.com/resources/local/visual-model",
+  "entities": [
+    {
+      "identifier": "37153e45-2404-4465-b54c-33f62e13b6c2-model-metadata-entity",
+      "type": [
+        "entity-model-type"
+      ],
+      "label": {
+        "en": "Anonymous model"
+      }
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/74145c87-ea27-426d-8086-03e63427098a/vocabulary",
+      "representedEntity": "https://w3id.org/dsv#ApplicationProfileSpecificationDocument",
+      "position": {
+        "x": 890,
+        "y": 270,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "1zevh"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/74145c87-ea27-426d-8086-03e63427098a/vocabulary",
+      "representedEntity": "https://w3id.org/dsv#ClassProfile",
+      "position": {
+        "x": 170,
+        "y": 340,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "rsm13g"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/74145c87-ea27-426d-8086-03e63427098a/vocabulary",
+      "representedEntity": "https://w3id.org/dsv#InvalidTermProfile",
+      "position": {
+        "x": 600,
+        "y": 130,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "222wy"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/74145c87-ea27-426d-8086-03e63427098a/vocabulary",
+      "representedEntity": "https://w3id.org/dsv#ObjectPropertyProfile",
+      "position": {
+        "x": 960,
+        "y": 520,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "pxx6m"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/74145c87-ea27-426d-8086-03e63427098a/vocabulary",
+      "representedRelationship": "https://w3id.org/dsv#range",
+      "waypoints": [],
+      "visualSource": "pxx6m",
+      "visualTarget": "rsm13g",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "ak3tt"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/74145c87-ea27-426d-8086-03e63427098a/ccccc55a-23c3-411f-a689-73040c72153d",
+      "representedEntity": "http://purl.org/dc/terms/Jurisdiction",
+      "position": {
+        "x": 680,
+        "y": 360,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "02t7yl"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/74145c87-ea27-426d-8086-03e63427098a/ccccc55a-23c3-411f-a689-73040c72153d",
+      "representedEntity": "http://purl.org/dc/terms/Frequency",
+      "position": {
+        "x": 680,
+        "y": 640,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "flz6u"
+    },
+    {
+      "model": "http://dataspecer.com/packages/local-root/74145c87-ea27-426d-8086-03e63427098a/ccccc55a-23c3-411f-a689-73040c72153d",
+      "representedEntity": "http://purl.org/dc/terms/FileFormat",
+      "position": {
+        "x": 170,
+        "y": 640,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "sz3v0h"
+    }
+  ]
+}
